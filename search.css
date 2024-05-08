@@ -1,0 +1,18 @@
+#container{
+    width: 100%;
+}
+#container>nav{
+    width: 100%;
+}
+#container header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+.box_2 button{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}

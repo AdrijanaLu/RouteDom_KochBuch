@@ -1,0 +1,48 @@
+#container{
+    width: 100%;
+    padding: 1%;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container > header{
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#container header .box_1 .logo{
+    min-width: 50px;
+    max-width: 100px;
+}
+#container header .box_2{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#container header .box_2 input{
+    height: 100%;
+    border: 1px solid rgb(163, 163, 163);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+}
+#container header .box_2 button{
+    height: 100%;
+    border: 1px solid rgb(163, 163, 163);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: lightskyblue;
+}
+#container header .box_2 button > img{
+    height: 100%;
+}
+#leer_nichtLeer{
+    background-color: rgb(228, 228, 228);
+    padding: 1%;
+}

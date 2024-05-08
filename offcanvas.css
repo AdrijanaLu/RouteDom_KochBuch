@@ -1,0 +1,12 @@
+.off_a{
+    color: darkslategrey;
+    text-decoration-line: none;
+}
+.off_a:hover{
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+.off_img{
+    width: 25px;
+    margin-right: 15px;
+}
